@@ -32,7 +32,7 @@ There are multiple Data-Engines within LEGACY:<BR>
 |  4  |  Device LocalPV     | Node Local storage   | We plan to sunset LEGACY in 2024 |
 |  5  |  LocalPV Device     | Node Local storage   | We plan to sunset LEGACY in 2024 |
 |  6  |  NDM              | Node Local storage   | We plan to sunset LEGACY in 2024 |
-|  7  |  Manu other       | Node Local storage   | We plan to sunset LEGACY in 2024 |
+|  7  |  Many other tools   | Node Local storage   | We plan to sunset LEGACY in 2024 |
 
 <BR>
 
