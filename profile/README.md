@@ -84,13 +84,13 @@ There are 3 main Data-Engines in LEGACY:<BR>
 There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/mayastor) Edition:
 | ID  | Data-Eegines       | Type of data services                                  | Status                                                     |
 |-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
-|  1  |  ```[Mayastor](https://github.com/openebs/mayastor)```      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
+|  1  |  [Mayastor](https://github.com/openebs/mayastor)      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
 |     | &nbsp;             |                                                        |                                                            |
 |  2  |  ```Local-PV```      | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
-|     |  LVM Local-PV      | for integration with LVM datastor deployments          | Stable, deployable in PROD, undergoing integration         |
-|     |  ZFS Local-PV      | for integration with ZFS datastor deployments          | Stable, deployable in PROD, undergoing integration         |
-|     |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
-|     |  RawFile-Device    | for integration with Soft-Lun Raw devices on a filesystem | Stable, deployable in PROD, undergoing integration         |
+|     |  [Local-PV-HostPath](https://github.com/openebs/dynamic-nfs-provisioner) | for integration with local node hostpath (/mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
+|     |  [ZFS Local-PV](https://github.com/openebs/zfs-localpv)      | for integration with ZFS datastor deployments          | Stable, deployable in PROD, undergoing integration         |
+|     |  [LVM Local-PV](https://github.com/openebs/lvm-localpv)      | for integration with LVM datastor deployments          | Stable, deployable in PROD, undergoing integration         |
+|     |  [RawFile-Device](https://github.com/openebs/rawfile-localpv)    | for integration with Soft-Lun Raw devices on a filesystem | Stable, deployable in PROD, undergoing integration         |
 <BR>
 
 ## :earth_americas: ROADMAP
