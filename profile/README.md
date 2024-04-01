@@ -48,23 +48,25 @@ OpenEBS has maintained a steady pace of development & evolution in order to keep
 > K8s storage services. LEGACY also helped to reveal key areas within K8s that are lacking in storage/datastore services,
 > what areas of K8s we could optimize; and how we can provide the best value into the various K8s storage layers.
 
-There are 3 main Data-Engines in LEGACY:<BR>
+There are multiple Data-Engines within LEGACY:<BR>
 | ID  | Data-Eegines      | Embeded tech stack   | Status                           |
 |-----|-------------------|----------------------|----------------------------------|
-|  1  |  Jiva             | iSCSI, Old LongHorn                | We plan to sunset LEGACY in 2024 |
-|  2  |  cStor            | Userspace Open ZFS             | We plan to sunset LEGACY in 2024 |
-|  2  |  NFS Provisioner  | NFS userspace server | We plan to sunset LEGACY in 2024 |
+|  1  |  Jiva             | iSCSI                | We plan to sunset LEGACY in 2024 |
+|  2  |  cStor            | Open ZFS             | We plan to sunset LEGACY in 2024 |
+|  3  |  NFS Provisioner  | NFS userspace server | We plan to sunset LEGACY in 2024 |
+|  4  |  Device LocalPV     | Node Local storage   | We plan to sunset LEGACY in 2024 |
+|  5  |  LocalPV Device     | Node Local storage   | We plan to sunset LEGACY in 2024 |
+|  6  |  NDM              | Node Local storage   | We plan to sunset LEGACY in 2024 |
+|  7  |  Many other tools   | Node Local storage   | We plan to sunset LEGACY in 2024 |
 <BR>
-
 
 
 ## ```STANDARD Edition```
 **STANDARD** is our Ultra modern Datastore stack that is strongly aligned with the cutting edge direction of storage use-cases in the K8s industry. It is designed to faciliate modern K8s datastore archiectures, key K8s I/O patterns, K8s data access methods, K8s data use-cases and where K8s Datastore applications are heading.
-<BR>
+<BR>	
 
-<details>
  
-<summary>STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
+STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra modern cutting-edge high performance storage technologies at its core...</summary>
 
 >
 > :ballot_box_with_check: &nbsp; It uses the High performance [SPDK](https://spdk.io) storage stack - (SPDK is an opensource NVMe project initiated by INTEL) <BR>
@@ -84,9 +86,9 @@ There are 3 main Data-Engines in LEGACY:<BR>
 There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/mayastor) Edition:
 | ID  | Data-Eegines       | Type of data services                                  | Status                                                     |
 |-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
-|  1  |  [Mayastor](https://github.com/openebs/mayastor)      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
+|  1  |  ```Replciated``` <BR>[Mayastor](https://github.com/openebs/mayastor)      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
 |     | &nbsp;             |                                                        |                                                            |
-|  2  |  ```Local-PV```      | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
+|  2  |  ```Local``` <BR>**LocalPV-xxx**       | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
 |     |  [Local-PV-HostPath](https://github.com/openebs/dynamic-nfs-provisioner) | for integration with local node hostpath (/mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
 |     |  [ZFS Local-PV](https://github.com/openebs/zfs-localpv)      | for integration with ZFS datastor deployments          | Stable, deployable in PROD, undergoing integration         |
 |     |  [LVM Local-PV](https://github.com/openebs/lvm-localpv)      | for integration with LVM datastor deployments          | Stable, deployable in PROD, undergoing integration         |
