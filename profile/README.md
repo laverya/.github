@@ -84,15 +84,13 @@ There are 3 main Data-Engines in LEGACY:<BR>
 There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/mayastor) Edition:
 | ID  | Data-Eegines       | Type of data services                                  | Status                                                     |
 |-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
-|  1  |  ```Mayastor```      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
+|  1  |  ```[Mayastor](https://github.com/openebs/mayastor)```      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
 |     | &nbsp;             |                                                        |                                                            |
 |  2  |  ```Local-PV```      | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
 |     |  LVM Local-PV      | for integration with LVM datastor deployments          | Stable, deployable in PROD, undergoing integration         |
 |     |  ZFS Local-PV      | for integration with ZFS datastor deployments          | Stable, deployable in PROD, undergoing integration         |
 |     |  Local-PV-HostPath | for integration with local node hostpath (/mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
-|     |  Device Local-PV   | for integration with explicit device paths (/dev/sdb)  | Stable, Not deployable in PROD, integration testing        |
-|     |  Local-PV-Device   | for integration with NDM managed devices               | Stable, Not deployable in PROD, integration testing        |
-|     |  RawFile-Device    | for integration with Soft Luns devices on a filesystem | Stable, deployable in PROD, undergoing integration         |
+|     |  RawFile-Device    | for integration with Soft-Lun Raw devices on a filesystem | Stable, deployable in PROD, undergoing integration         |
 <BR>
 
 ## :earth_americas: ROADMAP
