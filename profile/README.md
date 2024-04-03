@@ -89,10 +89,10 @@ There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/ma
 |  1  |  ```Replciated``` <BR>[Mayastor](https://github.com/openebs/mayastor)      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
 |     | &nbsp;             |                                                        |                                                            |
 |  2  |  ```Local``` <BR>**LocalPV-xxx**       | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
-|     |  [Local-PV-HostPath](https://github.com/openebs/dynamic-nfs-provisioner) | for integration with local node hostpath (/mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
-|     |  [ZFS Local-PV](https://github.com/openebs/zfs-localpv)      | for integration with ZFS datastor deployments          | Stable, deployable in PROD, undergoing integration         |
-|     |  [LVM Local-PV](https://github.com/openebs/lvm-localpv)      | for integration with LVM datastor deployments          | Stable, deployable in PROD, undergoing integration         |
-|     |  [RawFile-Device](https://github.com/openebs/rawfile-localpv)    | for integration with Soft-Lun Raw devices on a filesystem | Stable, deployable in PROD, undergoing integration         |
+|     |  [LocalPV-HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | for integration with local node hostpath (e.g. /mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
+|     |  [LocalPV-ZFS](https://github.com/openebs/zfs-localpv)      | for integration with local ZFS storage deployments          | Stable, deployable in PROD, undergoing integration         |
+|     |  [LocalPV-LVM](https://github.com/openebs/lvm-localpv)      | for integration with local LVM2 storage deployments          | Stable, deployable in PROD, undergoing integration         |
+|     |  [LocalPV-Raw-device-File](https://github.com/openebs/rawfile-localpv)    | for integration with Loop mounted Raw device-file filesystem | Stable, deployable in PROD, undergoing integration         |
 <BR>
 
 ## :earth_americas: ROADMAP
