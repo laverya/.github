@@ -19,7 +19,7 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
 > :zap: &nbsp; 1 Million OpenEBS K8s Containers are spawned per week <BR>
 > :sunglasses: &nbsp; 1.1 Million global users <BR>
 
-| [![coders](https://github.com/openebs/website/blob/main/website/public/images/png/code_icon_200x100.png "Write more awesome code")](https://github.com/openebs/website/blob/main/website/public/images/png/code_for_success_mantra.png)  | Building a K8s Enterprise Data Storage platform is complex, and areas of the Data & I/O stack could be considerd 'Storage Rocket science'. Our global team comes from many areas of the data storage industry. Companies like... [Microsoft Azure](https://azure.microsoft.com/en-us/), [VMware](https://www.vmware.com/), [DELL/EMC](https://www.dell.com/en-us/shop/scc/sc/storage-products), [Brocade/Broadcom](https://www.broadcom.com/products/fibre-channel-networking), [Hitachi Vantara](https://www.hitachivantara.com/en-us/products/storage-platforms.html), [INTEL](https://www.intel.com/content/www/us/en/products/details/memory-storage.html), [Nvidia/Mellanox](https://developer.nvidia.com/gpudirect-storage), [IBM](https://www.ibm.com/storage), [RedHat](https://www.redhat.com/en/technologies/cloud-computing/openshift) and [DataCore](https://datacore.com).  |
+| [![coders](https://github.com/openebs/website/blob/main/website/public/images/png/code_icon_200x100.png "Write more awesome code")](https://github.com/openebs/website/blob/main/website/public/images/png/website/public/images/png/code_for_success_mantra_small.png)  | Building a K8s Enterprise Data Storage platform is complex, and areas of the Data & I/O stack could be considerd 'Storage Rocket science'. Our global team comes from many areas of the data storage industry. Companies like... [Microsoft Azure](https://azure.microsoft.com/en-us/), [VMware](https://www.vmware.com/), [DELL/EMC](https://www.dell.com/en-us/shop/scc/sc/storage-products), [Brocade/Broadcom](https://www.broadcom.com/products/fibre-channel-networking), [Hitachi Vantara](https://www.hitachivantara.com/en-us/products/storage-platforms.html), [INTEL](https://www.intel.com/content/www/us/en/products/details/memory-storage.html), [Nvidia/Mellanox](https://developer.nvidia.com/gpudirect-storage), [IBM](https://www.ibm.com/storage), [RedHat](https://www.redhat.com/en/technologies/cloud-computing/openshift) and [DataCore](https://datacore.com).  |
 | :---  | :--- |
 <BR>
 
@@ -51,13 +51,13 @@ OpenEBS has maintained a steady pace of development & evolution in order to keep
 There are multiple Data-Engines within LEGACY:<BR>
 | ID  | Data-Eegines      | Embeded tech stack   | Status                           |
 |-----|-------------------|----------------------|----------------------------------|
-|  1  |  Jiva             | iSCSI                | We plan to sunset LEGACY in 2024 |
-|  2  |  cStor            | Open ZFS             | We plan to sunset LEGACY in 2024 |
-|  3  |  NFS Provisioner  | NFS userspace server | We plan to sunset LEGACY in 2024 |
-|  4  |  Device LocalPV     | Node Local storage   | We plan to sunset LEGACY in 2024 |
-|  5  |  LocalPV Device     | Node Local storage   | We plan to sunset LEGACY in 2024 |
-|  6  |  NDM              | Node Local storage   | We plan to sunset LEGACY in 2024 |
-|  7  |  Many other tools   | Node Local storage   | We plan to sunset LEGACY in 2024 |
+|  1  |  Jiva             | iSCSI                | Has been ```deprecated```. Will be migrating out of org soon  |
+|  2  |  cStor            | Open ZFS             | Has been ```deprecated```. Will be migrating out of org soon |
+|  3  |  NFS Provisioner  | NFS userspace server | Has been ```deprecated```. Will be migrating out of org soon |
+|  4  |  Device LocalPV     | Node Local storage   | Has been ```deprecated```. Will be migrating out of org soon |
+|  5  |  LocalPV Device     | Node Local storage   | Has been ```deprecated```. Will be migrating out of org soon |
+|  6  |  NDM              | Node Local storage   | Has been ```deprecated```. Will be migrating out of org soon |
+|  7  |  Many other tools   | Node Local storage   | Has been ```deprecated```. Will be migrating out of org soon |
 <BR>
 
 
