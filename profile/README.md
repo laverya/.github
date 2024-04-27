@@ -27,7 +27,7 @@ We have built an innovative ultra High-performance Enterprise grade Block-mode H
 > We are grateful for the above innovative Data Storage companies and their amazing engineering contributors. Our orignal founding team continues to guide the project as custodial Maintainers. Major sponsorship is provided by [DataCore](https://datacore.com), who donates a large team of dedicated  Product Dev/Engineers, Product Mgmt and operational rescources. (Our founding team was acquired by DataCore, Inc). OpenEBS has 100's of amazing individuals, contributors and storage engineers who provide brainstorming ideas, feedback, code reviews and high-quality code to the project. - All who are passionate about storage and Data are welcome here.
 
 ## Project structure
-![](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_project-structure_april2024.png)
+[![Project Structure](https://github.com/openebs/website/blob/main/website/public/images/png/openebs_github_project-structure_april2024.png)](/community)
 
 ## Deployable Data-Engines
 OpenEBS has maintained a steady pace of development & evolution in order to keep in alignment with K8s advancment overall and with the rapid changing pace of technologies, hardware and software innovations in the data stroage industry. The proejct is divided into 2 main deployable Editions :<BR>
