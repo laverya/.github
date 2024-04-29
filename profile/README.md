@@ -86,7 +86,7 @@ STANDARD is optimized for NVMe and SSD Flash storage media, and integrates ultra
 There are 2 Data-Engines within the [**STANDARD**](https://github.com/openebs/mayastor) Edition:
 | ID  | Data-Eegines       | Type of data services                                  | Status                                                     |
 |-----|--------------------|--------------------------------------------------------|------------------------------------------------------------|
-|  1  |  ```Replciated``` <BR>[Mayastor](https://github.com/openebs/mayastor)      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
+|  1  |  ```Replicated``` <BR>[Mayastor](https://github.com/openebs/mayastor)      | Replicated data volumes (a Cluster wide Data fabric)   | Stable, deployable in PROD. Very active development        |
 |     | &nbsp;             |                                                        |                                                            |
 |  2  |  ```Local``` <BR>**LocalPV-xxx**       | Non-replicated node local data volumes                 | (Local-PV has multiple variants. See below)                |
 |     |  [LocalPV-HostPath](https://github.com/openebs/dynamic-localpv-provisioner) | for integration with local node hostpath (e.g. /mnt/fs1)    | Stable, deployable in PROD, undergoing integration         |
